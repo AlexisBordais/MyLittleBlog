@@ -69,13 +69,13 @@ var Littleblog = mongoose.model('Littleblog', BlogSchema) // Model qui va utilis
 //     })
 // })
 
-// app.post('/angugame', (req, res, next) => {
-//     Angugame.create(req.body, (err, result) => {
-//         if (err) next(err)
-//                     res.json(result)
-//
-//     })
-// })
+app.post('/blogs', (req, res, next) => {
+    Littleblog.create(req.body, (err, result) => {
+        if (err) next(err)
+                    res.json(result)
+
+    })
+})
 
 // app.get('/angugame', (req, res) => {
 //     Angugame.find((err, result) => {
