@@ -1,0 +1,27 @@
+{
+  "name": "mylittleblog",
+  "version": "1.0.0",
+  "description": "Little personal project to know what I can do in AngularJS :)",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexisBordais/MyLittleBlog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexisBordais/MyLittleBlog/issues"
+  },
+  "homepage": "https://github.com/AlexisBordais/MyLittleBlog#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "express": "^4.14.0",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.7",
+    "morgan": "^1.7.0",
+    "parser": "^0.1.4"
+  }
+}
