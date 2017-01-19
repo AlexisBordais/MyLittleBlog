@@ -1,1 +1,32 @@
 <h1>Ceci sera ma blogList !!!</h1>
+
+
+<div class="container">
+    <div class="row">
+
+
+
+        <!--Card-->
+        <div class="card col-md-3" ng-repeat="blog in $ctrl.blogs" style="margin: 10px;box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12); border-radius: 2px;">
+            <!--Card image-->
+            <div class="view overlay hm-white-slight">
+                <img ng-src="{{blog.image}}" class="img-responsive img-fluid" alt="Responsive image">
+                <a href="#">
+                    <div class="mask"></div>
+                </a>
+            </div>
+            <!--/.Card image-->
+            <!--Card content-->
+            <div class="card-block">
+                <!--Title-->
+                <h4 class="card-title">{{blog.title}}</h4>
+                <!--Text-->
+                <p class="card-text">{{blog.content}}</p>
+                <a href="#" class="btn btn-primary">Button</a>
+            </div>
+            <!--/.Card content-->
+        </div>
+        <!--/.Card-->
+
+    </div>
+</div>

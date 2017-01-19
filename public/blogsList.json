@@ -1,0 +1,17 @@
+[{
+	"title": "Blog1",
+	"content": "blablablablablablablabla",
+	"image": "./img/wcs.jpg"
+}, {
+	"title": "blog2",
+	"content": "blibliblibliblibliblbibliblbi",
+	"image": "./img/wcs.jpg"
+}, {
+	"title": "blog3",
+	"content": "blobloblobloblobloblobloblo",
+	"image": "./img/wcs.jpg"
+}, {
+	"title": "blog4",
+	"content": "blublublublublublbulb",
+	"image": "./img/wcs.jpg"
+}]
